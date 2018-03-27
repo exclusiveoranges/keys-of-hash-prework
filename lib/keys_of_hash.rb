@@ -7,5 +7,7 @@ class Hash
     self.keys
     self.keys.each do |keys|
       binding.pry
+    end
+
   end
 end
