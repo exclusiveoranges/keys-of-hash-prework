@@ -6,8 +6,8 @@ class Hash
     # binding.pry
     # self.keys
     self.collect do |key, value|
-      if value == arguments
-        return value
+      if value.include?(arguments)
+        value
       end
     end
   end
