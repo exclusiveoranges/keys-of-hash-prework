@@ -7,7 +7,7 @@ class Hash
     # self.keys
     self.collect do |key, value|
       if arguments.include?(value)
-        value
+        key
       end
     end
   end
