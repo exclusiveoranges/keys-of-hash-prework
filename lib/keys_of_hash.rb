@@ -10,4 +10,5 @@ class Hash
         return value
       end
     end
+  end
 end
